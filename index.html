@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respansive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <div class="menu">
+                    <a href="#" onclick="acil_susam()" id="burger_menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </a>
+                </div>
+                <a href=""><div class="logo"><span>TR</span></div></a>
+            </div>
+            <div class="center">
+                <div class="search">
+                    <input type="text" placeholder="Ara">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-solid fa-microphone"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <a href=""><i class="fa-solid fa-video"></i></a>
+                <a href=""><i class="fa-brands fa-buromobelexperte"></i></a>
+                <a href=""><i class="fa-solid fa-bell"></i></a>
+                <a href=""><div>a</div></a>
+            </div>
+        </div>
+        <div class="left_side" id="left_side">
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">home</span><h3>Ana Sayfa</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">explore</span><h3>Keşfet</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">video_settings</span></i><h3>Shorts</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">subscriptions</span><h3>Abonelikler</h3></div></a>
+            <div class="cizgi"> ‏‏‎‏‏‎ </div>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">video_library</span><h3>Kitaplık</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">history</span><h3>Geçmiş</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">smart_display</span><h3>Videolarımız</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">schedule</span><h3>Daha sonra izle</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">thumb_up</span><h3>Beğendiğim videolar</h3></div></a>
+            <a href="#" class="list1" id="list"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>bootstrep dersleri</h3></div></a>
+            <a href="#" class="list2"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>ondan bundan</h3></div></a>
+            <a href="#" class="list3"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list4"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list5"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list6"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list7"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list8"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" class="list9"><div class="left_menu" id="daha_fazla"><span class="material-symbols-outlined">playlist_play</span><h3>lorem ipsum</h3></div></a>
+            <a href="#" onclick="daha_fazla_goster();"><div class="left_menu"><span class="material-symbols-outlined">expand_more</span><h3 id="daha_az">Daha fazla göster</h3></div></a>
+            <div class="cizgi"> ‏‏‎‏‏‎ </div>
+            <h2 class="abonelikler">Abonelikler</h2>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Alper koşay</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Burak oyunda</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Enes papur</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Kendine müzisyen</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Barış özcan</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Özel versiyon</h3></div></a>
+            <a href="#"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Dogy style</h3></div></a>
+            <a href="#" class="diger1" id="diger"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Midoriya izuku</h3></div></a>
+            <a href="#" class="diger2"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Naruto</h3></div></a>
+            <a href="#" class="diger3"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Saskeee</h3></div></a>
+            <a href="#" class="diger4"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Pablo</h3></div></a>
+            <a href="#" class="diger5"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>İnşaat ustası</h3></div></a>
+            <a href="#" class="diger6"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>2.5L kola</h3></div></a>
+            <a href="#" class="diger7"><div class="left_menu"><img src="images/profil.jpg" alt=""><h3>Şeftali</h3></div></a>
+            <a href="#" onclick="diger_goster();"><div class="left_menu"><span class="material-symbols-outlined">expand_more</span><h3 id="diger_daha_az">Daha fazla göster</h3></div></a>
+            <div class="cizgi"> ‏‏‎‏‏‎ </div>
+            <h2 class="abonelikler">YOUTUBE'DAN DAHA FAZLA İÇERİK</h2>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">slideshow</span><h3>YouTube Premium</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">sports_esports</span><h3>Oyun</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">sensors</span><h3>Canlı</h3></div></a>
+            <a href="#"><div class="left_menu"><i class="fa-solid fa-trophy"></i><h3>Spor</h3></div></a>
+            <div class="cizgi"> ‏‏‎‏‏‎ </div>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">settings</span><h3>Ayarlar</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">Flag</span><h3>İçerik bildirme geçmişi</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">help</span><h3>Yardım</h3></div></a>
+            <a href="#"><div class="left_menu"><span class="material-symbols-outlined">sms_failed</span><h3>Geri Bildirim Gönder</h3></div></a>
+            <div class="cizgi"> ‏‏‎‏‏‎ </div>
+            <div class="footer">
+                <a href="">Hakkında</a>
+                <a href="">Basın</a>
+                <a href="">Telif hakkı</a>
+                <a href="">Bize Ulaşın</a>
+                <a href="">İçerik üreticiler</a>
+                <a href="">Reklam verme</a>
+                <a href="">Geliştiriciler</a>
+            </div>
+            <div class="cizgi"></div>
+            <div class="alt">
+                <a href="">Şartlar</a><br>
+                <a href="">Gizlilik ve güvenlik</a><br>
+                <a href="">Youtube nasıl çalışıyor</a><br>
+                <a href="">Yeni çzellikler deneyin</a>
+            </div><br>
+            <h2 class="abonelikler" id="footler">© 2022 Google LLC</h2>
+            <br><br><br><br>
+        </div>
+        <div class="right_ust" id="right_ust">
+            <div class="etiket"><a href="">Tümü</a></div>
+            <div class="etiket"><a href="">Mix'ler</a></div>
+            <div class="etiket"><a href="">Oyun</a></div>
+            <div class="etiket"><a href="">Müzik</a></div>
+            <div class="etiket"><a href="">Canlı</a></div>
+            <div class="etiket"><a href="">Aksiyon-macera oyunları</a></div>
+            <div class="etiket"><a href="">Çizgi filmler</a></div>
+            <div class="etiket"><a href="">Yemek pişirme</a></div>
+            <div class="etiket"><a href="">Son yüklenenler</a></div>
+            <div class="etiket"><a href="">İzlenenler</a></div>
+            <div class="etiket"><a href="">Yeni öneriler</a></div>
+        </div>
+        <div class="right_side">
+            <div class="ust_bosluk"></div>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            <a href="" style="display: block;">
+                <div class="contant">
+                    <div class="images"><a href=""><img src="images/contant_image.webp" alt=""><div class="time">00:31</div><span>Oynatmak için fareyi üzerinde tutun</span></a></div>
+                    <div class="acikla">
+                        <div class="profil"><a href=""><img src="images/profil.jpg" alt=""></a></div>
+                        <div class="aciklama"><span><a href="">Çin, uzaylı bir medeniyetten gelen sinyalleri mi yakaladı?</a></span>
+                            <div class="gri_alan"><a href="">serkaismygörl</a></div>
+                            <div class="data">16 Mn görüntüleme <i>.</i> 1 yıl önce</div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                    <a href="#" class="arka_panel"></a>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <script>
+        function acil_susam(){
+            if(document.getElementById("left_side").style.display == "none"){
+                document.getElementById("left_side").style.display = "block";
+                document.getElementById("right_ust").style.marginLeft = "240px";
+            }
+            else{
+                document.getElementById("left_side").style.display="none";
+                document.getElementById("right_ust").style.marginLeft = "0";
+            }
+        }
+        function daha_fazla_goster(){
+            if(document.getElementById("list").style.display == "block"){
+            document.querySelector(".list1").style.display="none";
+            document.querySelector(".list2").style.display="none";
+            document.querySelector(".list3").style.display="none";
+            document.querySelector(".list4").style.display="none";
+            document.querySelector(".list5").style.display="none";
+            document.querySelector(".list6").style.display="none";
+            document.querySelector(".list7").style.display="none";
+            document.querySelector(".list8").style.display="none";
+            document.querySelector(".list9").style.display="none";
+            document.getElementById("daha_az").innerHTML="Daha fazla göster";
+            }
+            else{
+            document.querySelector(".list1").style.display="block";
+            document.querySelector(".list2").style.display="block";
+            document.querySelector(".list3").style.display="block";
+            document.querySelector(".list4").style.display="block";
+            document.querySelector(".list5").style.display="block";
+            document.querySelector(".list6").style.display="block";
+            document.querySelector(".list7").style.display="block";
+            document.querySelector(".list8").style.display="block";
+            document.querySelector(".list9").style.display="block";
+            document.getElementById("daha_az").innerHTML="Daha az göster";
+            }
+        }
+        function diger_goster(){
+            if(document.getElementById("diger").style.display == "block"){
+            document.querySelector(".diger1").style.display="none";
+            document.querySelector(".diger2").style.display="none";
+            document.querySelector(".diger3").style.display="none";
+            document.querySelector(".diger4").style.display="none";
+            document.querySelector(".diger5").style.display="none";
+            document.querySelector(".diger6").style.display="none";
+            document.querySelector(".diger7").style.display="none";
+            document.getElementById("diger_daha_az").innerHTML="Daha fazla göster";
+            }
+            else{
+            document.querySelector(".diger1").style.display="block";
+            document.querySelector(".diger2").style.display="block";
+            document.querySelector(".diger3").style.display="block";
+            document.querySelector(".diger4").style.display="block";
+            document.querySelector(".diger5").style.display="block";
+            document.querySelector(".diger6").style.display="block";
+            document.querySelector(".diger7").style.display="block";
+
+            document.getElementById("diger_daha_az").innerHTML="Daha az göster";
+            }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/8a12af9da4.js" crossorigin="anonymous"></script>
+</body>
+</html>
